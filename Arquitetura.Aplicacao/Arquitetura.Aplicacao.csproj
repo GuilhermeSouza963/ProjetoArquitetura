@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arquitetura.Dominio\Arquitetura.Dominio.csproj" />
+    <ProjectReference Include="..\Arquitetura.InfraEstrutura.ServiceLocator\Arquitetura.InfraEstrutura.ServiceLocator.csproj" />
+  </ItemGroup>
+
+</Project>
